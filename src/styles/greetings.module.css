@@ -17,7 +17,7 @@
 }
 
 .greetingsnametext {
-  color: #d81656;
+  color: var(--pink);
   margin-bottom: 0;
 }
 

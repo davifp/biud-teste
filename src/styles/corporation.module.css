@@ -19,5 +19,5 @@
 .text {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #d81656;
+  color: var(--pink);
 }

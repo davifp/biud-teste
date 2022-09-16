@@ -24,7 +24,7 @@
 .text {
   max-width: 44.8rem;
   font-size: 4.8rem;
-  color: #ffffff;
+  color: var(--white);
   font-weight: 700;
   line-height: 4.8rem;
 }

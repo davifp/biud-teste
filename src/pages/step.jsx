@@ -31,29 +31,19 @@ function Step() {
     progress = 100;
   }
 
+  const steps = {
+    0: <Name nextStep={nextStep} />,
+    1: <Greetings nextStep={nextStep} />,
+    2: <Corporation nextStep={nextStep} />,
+    3: <CorpGreetings corp={corp} nextStep={nextStep} />,
+    4: <Phone nextStep={nextStep} />,
+    5: <Referral corp={corp} nextStep={nextStep} />,
+  };
+
   return (
     <>
       <Header progress={progress} />
-      <div className={styles.container}>
-        {(() => {
-          switch (stepCounter) {
-            case 0:
-              return <Name nextStep={nextStep} />;
-            case 1:
-              return <Greetings nextStep={nextStep} />;
-            case 2:
-              return <Corporation nextStep={nextStep} />;
-            case 3:
-              return <CorpGreetings corp={corp} nextStep={nextStep} />;
-            case 4:
-              return <Phone nextStep={nextStep} />;
-            case 5:
-              return <Referral corp={corp} nextStep={nextStep} />;
-            default:
-              break;
-          }
-        })()}
-      </div>
+      <div className={styles.container}>{steps[stepCounter]}</div>
     </>
   );
 }
