@@ -10,8 +10,8 @@ export function Phone({ nextStep }) {
   const buttonProps = {
     style: {
       borderRadius: "2rem",
-      color: "#FFFFFF",
-      backgroundColor: "#d81656",
+      color: "var(--white)",
+      backgroundColor: "var(--pink)",
       fontSize: "1.6rem",
       fontWeight: "700",
       padding: "0.8rem",

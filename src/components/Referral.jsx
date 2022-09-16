@@ -12,11 +12,10 @@ export function Referral({ corp, nextStep }) {
   const buttonProps = {
     style: {
       borderRadius: "2rem",
-      color: "#FFFFFF",
-      backgroundColor: "#d81656",
+      color: "var(--white)",
+      backgroundColor: "var(--pink)",
       fontSize: "2rem",
       fontWeight: "700",
-      marginLeft: "0.8rem",
       padding: "0.8rem",
       display: "flex",
       alignItems: "center",

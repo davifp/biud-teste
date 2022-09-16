@@ -5,7 +5,7 @@ export function Header({ progress }) {
   return (
     <>
       <Head>
-        <title>BIUD</title>
+        <title>BIUD - Step</title>
       </Head>
       <header className={styles.header}>
         <div style={{ width: `${progress}%` }} className={styles.progressBar}>

@@ -23,7 +23,7 @@ export function Greetings({ nextStep }) {
           Vou te mostrar o meu jeito de fazer marketing direcionado por dados.
         </p>
       </div>
-      <PulseLoader size={10} color="#D81656" />
+      <PulseLoader size={10} color="var(--pink)" />
     </main>
   );
 }

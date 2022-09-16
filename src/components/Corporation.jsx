@@ -3,12 +3,12 @@ import suitcase from "../../public/suitcase.png";
 import { Button } from "./ChooseButton";
 import styles from "../styles/corporation.module.css";
 
-export function Coporation({ nextStep }) {
+export function Corporation({ nextStep }) {
   const buttonProps = {
     style: {
       borderRadius: "2rem",
-      color: "#FFFFFF",
-      backgroundColor: "#d81656",
+      color: "var(--white)",
+      backgroundColor: "var(--pink)",
       fontSize: "1.6rem",
       fontWeight: "700",
       marginLeft: "0.8rem",

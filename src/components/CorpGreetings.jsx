@@ -25,7 +25,7 @@ export function CorpGreetings({ nextStep, corp }) {
           resultados da sua {corp}.
         </p>
       </div>
-      <PulseLoader size={10} color="#D81656" />
+      <PulseLoader size={10} color="var(--pink)" />
     </main>
   );
 }

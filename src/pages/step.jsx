@@ -1,13 +1,14 @@
 import { useContext, useState } from "react";
 import { Header } from "../components/Header";
+
 import styles from "../styles/step.module.css";
 import { Name } from "../components/Name";
 import { Greetings } from "../components/Greetings";
 import { Phone } from "../components/Phone";
 import { CorpGreetings } from "../components/CorpGreetings";
 import { Referral } from "../components/Referral";
+import { Corporation } from "../components/Corporation";
 import userContext from "../contexts/UserContext";
-import { Coporation } from "../components/Corporation";
 
 function Step() {
   const [stepCounter, addStepCounter] = useState(0);
@@ -41,7 +42,7 @@ function Step() {
             case 1:
               return <Greetings nextStep={nextStep} />;
             case 2:
-              return <Coporation nextStep={nextStep} />;
+              return <Corporation nextStep={nextStep} />;
             case 3:
               return <CorpGreetings corp={corp} nextStep={nextStep} />;
             case 4:

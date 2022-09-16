@@ -8,7 +8,7 @@ export function Button({ buttonProps, nextStep, disabled, name, ...rest }) {
   const disabledStyle = {
     style: {
       borderRadius: "2rem",
-      color: "#FFFFFF",
+      color: "var(--white)",
       backgroundColor: "#d3d3d3",
       fontSize: "1.6rem",
       fontWeight: "700",
