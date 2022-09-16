@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Desafio Técnico da BIUD
 
-## Getting Started
+Este projeto foi proposto como desafio para a etapa do processo seletivo. O principal objetivo deste projeto é criar um web app onde o usuário possa informar alguns dados para Mia, a inteligência artificial de marketing direcionada por dados da BIUD.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Acessar em Produção
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto em produção pode ser acessado em:
+[https://biud.vercel.app/](https://biud.vercel.app/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Iniciando o Projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone o repositório:
 
-## Learn More
+- `git clone https://github.com/davifp/biud-teste.git`
 
-To learn more about Next.js, take a look at the following resources:
+2. Para instalar as dependências digite:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `yarn` ou `npm install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Para executar o projeto digite:
 
-## Deploy on Vercel
+- `yarn dev` ou `npm run dev`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## O Projeto
+
+### O projeto possui duas páginas:
+
+1. Página `Home` que pode ser acessada através da url:
+
+- `http://localhost:3000`
+
+## ![homepage](https://user-images.githubusercontent.com/56058239/190703373-9b434876-0700-4a8c-8583-905c8c9e816f.png)
+
+2. Página `Step` que pode ser acessada pelo botão `Começar` ou pela url:
+
+- `http://localhost:3000/step`
+
+## ![step](https://user-images.githubusercontent.com/56058239/190705611-b5c0476f-2ee2-4582-9f55-2b882a06a9ba.png)
+
+A página `Step` é renderizada de acordo com os passos seguidos pelo usuário, finalizando no componente `Referral`
+
+![referral](https://user-images.githubusercontent.com/56058239/190707570-1576da8c-099f-492e-911f-e78f91891c45.png)
