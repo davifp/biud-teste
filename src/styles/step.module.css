@@ -1,0 +1,13 @@
+/* Container Principal */
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  width: 20%;
+  background-color: #d81656;
+}

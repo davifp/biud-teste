@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 44rem;
+}
+
+.imageContainer {
+  max-height: 8rem;
+  max-width: 8rem;
+}
+
+.greetingsnametext,
+.greetingstext {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.greetingsnametext {
+  color: #d81656;
+  margin-bottom: 0;
+}
+
+.greetingstext {
+  margin-top: 0;
+  color: #000000;
+}

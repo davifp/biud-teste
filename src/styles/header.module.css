@@ -1,0 +1,9 @@
+.header {
+  height: 0.8rem;
+  background-color: #0000001a;
+}
+
+.progressBar {
+  background-color: #29cc5f;
+  height: 0.8rem;
+}

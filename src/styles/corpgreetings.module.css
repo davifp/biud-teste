@@ -1,0 +1,22 @@
+.content {
+  max-width: 44rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.imageContainer {
+  max-height: 8rem;
+  max-width: 8rem;
+}
+
+.text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #d81656;
+}
+
+.text1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
