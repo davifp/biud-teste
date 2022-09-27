@@ -7,7 +7,7 @@ Este projeto foi proposto como desafio para a etapa do processo seletivo. O prin
 ## Acessar em Produção
 
 O projeto em produção pode ser acessado em:
-[https://biud.vercel.app/](https://biud.vercel.app/)
+[https://biud-davifp.vercel.app/](https://biud-davifp.vercel.app/)
 
 ---
 
